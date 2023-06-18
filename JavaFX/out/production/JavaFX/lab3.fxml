@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lab3Controller">
+   <children>
+      <Text layoutX="289.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <TextField fx:id="lbl" alignment="CENTER" layoutX="177.0" layoutY="93.0" prefHeight="60.0" prefWidth="249.0" />
+      <TextField fx:id="resultFX" alignment="CENTER" layoutX="177.0" layoutY="263.0" prefHeight="60.0" prefWidth="249.0" />
+      <Button fx:id="buttonLab3Translate" layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#onStartButtonClick" text="Translate" />
+      <TextField fx:id="lbl_dictionary" layoutX="191.0" layoutY="26.0" prefHeight="25.0" prefWidth="357.0" />
+      <Text layoutX="290.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="123.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dictionary" />
+   </children>
+</AnchorPane>

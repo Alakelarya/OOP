@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="440.0" prefWidth="355.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lab2Controller">
+    <children>
+        <TextField fx:id="lbl" layoutX="47.0" layoutY="47.0" prefHeight="25.0" prefWidth="129.0" />
+        <TextArea fx:id="resultFX" editable="false" layoutX="7.0" layoutY="114.0" prefHeight="319.0" prefWidth="341.0" wrapText="true">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </TextArea>
+        <Button fx:id="buttonLab2OK" layoutX="201.0" layoutY="47.0" mnemonicParsing="false" onAction="#onStartButtonClick" prefHeight="25.0" prefWidth="115.0" text="Create matrix" />
+        <Text layoutX="98.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Path:" />
+        <Text layoutX="153.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Result:" />
+    </children>
+</AnchorPane>

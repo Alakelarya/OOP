@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="280.0" prefWidth="334.0" spacing="20.0"
+      xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="Lab4Controller">
+    <children>
+        <Button fx:id="buttonLab4Annotation" alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false"
+                onAction="#onStartButtonClick" text="Annotation">
+            <VBox.margin>
+                <Insets top="30.0"/>
+            </VBox.margin>
+        </Button>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Result"/>
+        <TextArea fx:id="resultFX" editable="false" prefHeight="151.0" prefWidth="316.0">
+            <opaqueInsets>
+                <Insets/>
+            </opaqueInsets>
+            <VBox.margin>
+                <Insets left="10.0" right="10.0"/>
+            </VBox.margin>
+        </TextArea>
+    </children>
+</VBox>

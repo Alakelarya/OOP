@@ -1,0 +1,10 @@
+i|Я
+dogs|собак,псов
+like|Люблю
+walk|гулять
+and|и
+cats|кошек,котов
+woof|гав
+looking for|искать
+come back|вернуться
+key|ключ

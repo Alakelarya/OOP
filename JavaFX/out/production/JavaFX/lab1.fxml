@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="285.0" prefWidth="239.0" spacing="20.0"
+      xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="Lab1Controller">
+    <children>
+        <Button fx:id="buttonLab1Start" alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false"
+                onAction="#onStartButtonClick" text="Start">
+            <VBox.margin>
+                <Insets top="30.0"/>
+            </VBox.margin>
+        </Button>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Choice walk -1, ride - 2 or fly - 3"
+              wrappingWidth="195.015625">
+            <VBox.margin>
+                <Insets/>
+            </VBox.margin>
+        </Text>
+        <TextField fx:id="lbl">
+            <padding>
+                <Insets bottom="10.0"/>
+            </padding>
+            <VBox.margin>
+                <Insets left="10.0" right="10.0"/>
+            </VBox.margin>
+        </TextField>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Move:"/>
+        <TextField fx:id="resultFX" alignment="CENTER" editable="false" prefHeight="63.0" prefWidth="196.0">
+            <opaqueInsets>
+                <Insets/>
+            </opaqueInsets>
+            <VBox.margin>
+                <Insets left="10.0" right="10.0"/>
+            </VBox.margin>
+        </TextField>
+    </children>
+</VBox>
